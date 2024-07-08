@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Horoscope</title>
+    <link rel="stylesheet" type="text/css" href="live.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="live.js" defer></script>
+  </head>
+  <body>
+    <div class="navbar-main">
+      <div class="logo primary-color">
+        <img
+          src="png-transparent-nakshatra-hindu-astrology-horoscope-astrological-sign-astrology-decor-aries-ascendant-thumbnail.png"
+          alt=""
+          height="40px"
+        />
+        <h1 class="text-light">AstroAura</h1>
+      </div>
+      <div class="menu">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="about.html" target="_blank">About Us</a>
+        <a href="services.html" target="_blank">Services</a>
+        <a href="blog.html" target="_blank">Blog </a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </div>
+    </div>
+
+    <div id="container">
+      <header id="header">
+        <h1 class="txtheader">What Your Horoscope Says About You</h1>
+        <div id="img_horo"></div>
+      </header>
+
+      <section id="selectionarea">
+        <h3 id="txt">Please select your zodiac sign</h3>
+
+        <select id="horoscope" name="zodiac" onchange="selffunction()">
+          <option value="default">Please select</option>
+          <option value="Aries">Aries (March 21 - April 19)</option>
+          <option value="Taurus">Taurus (April 20 - May 20)</option>
+          <option value="Gemini">Gemini (May 21 - June 20)</option>
+          <option value="Cancer">Cancer (June 21 - July 22)</option>
+          <option value="Leo">Leo (July 23 - August 22)</option>
+          <option value="Virgo">Virgo (August 23 - September 22)</option>
+          <option value="Libra">Libra (September 23 - October 22)</option>
+          <option value="Scorpio">Scorpio (October 23 - November 21)</option>
+          <option value="Sagittarius">
+            Sagittarius (November 22 - December 21)
+          </option>
+          <option value="Capricor">Capricorn (December 22 - January 19)</option>
+          <option value="Aquarius">Aquarius (January 20 - February 18)</option>
+          <option value="Pisces">Pisces (February 19 - March 20)</option>
+        </select>
+      </section>
+      <br />
+      <section id="horoscopetxt">
+        <h3 id="textrow1"></h3>
+        <textarea
+          id="textrow2"
+          style="margin: 0px; width: 100%; height: 366px"
+          disabled
+        ></textarea>
+      </section>
+      <br />
+    </div>
+  </body>
+</html>
