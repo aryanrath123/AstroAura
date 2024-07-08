@@ -1,0 +1,923 @@
+
+@media (min-width: 360px) and (max-width: 575.98px) {
+ 
+  .logo {
+    padding: 5px 0px;
+  }
+  .menu {
+    margin-left: 0rem;
+  }
+  .item1 {
+    font-size: 12px;
+  }
+ 
+  .background {
+    background-image: url(pexels-ekam-juneja-61080223-14540527.jpg);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 80px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  .background_data {
+    margin: 0px 10px 50px 10px;
+  }
+
+  .main-h5 {
+    font-size: 18px;
+  }
+  .main-p {
+    font-size: 16px;
+  }
+
+  .services > h1 {
+    font-size: 25px;
+  }
+  
+
+  .services-detail {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin: 5px;
+  }
+
+  .service-item > i {
+    width: 80px;
+    height: 80px;
+    padding-top: 22px;
+    font-size: 28px;
+  }
+  .service-item {
+    padding: 30px 30px;
+  }
+  
+  .quotes {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    margin: 60px 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .quotes-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    padding: 10px 50px 10px 10px;
+  }
+  .form-color {
+    padding: 10px 33px;
+  }
+  .quotes-img > img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .blogs-data > span {
+    font-size: 14px;
+  }
+  .blogs-data > h1 {
+    font-size: 20px;
+  }
+  .main-blogs {
+    margin: 10px 10px 10px 10px;
+  }
+  .blog-posts {
+    width: 80%;
+    margin-right: 0px;
+  }
+  .blog-posts > img {
+    width: 100%;
+    height: 210px;
+  }
+  .blog-content > h2 {
+    font-size: 14px;
+  }
+
+  .blog-date {
+    padding: 6px;
+  }
+  .blog-date > span {
+    font-size: 12px;
+  }
+  .blog-date > h4 {
+    font-size: 16px;
+  }
+
+  
+  .back_video {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 0;
+  }
+
+  .quick-link,
+  .popular-link,
+  .get-in-touch {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+  }
+  .quick-link > h1,
+  .popular-link > h1,
+  .get-in-touch > h1,
+  .follow-us > h1 {
+    font-size: 22px;
+  }
+  .quick-link > a,
+  .popular-link > a {
+    padding: 5px 5px 5px 0px;
+    font-size: 14px;
+  }
+  .footer-icons {
+    padding-left: 0rem;
+  }
+  .footericon {
+    font-size: 14px;
+  }
+  .footer-mail{
+   height: 30px;
+    background-color: black;
+    margin-top: 14%;
+  }
+  .footer-end{
+    background-color: lightgrey;
+    
+  }
+  .footer-end p{
+    color: black;
+    font-size: 15px;
+    font-style: bolder;
+  }
+  .footer-main{
+    height: 250px;
+  }
+
+  .follow-us {
+    width: 43%;
+  }
+  
+  h1{
+    margin-top: -2px;
+  }
+
+  .socialmediaicon {
+    font-size: 19px;
+  }
+  .socialmediaicon.facebook {
+    font-size: 19px;
+  }
+  .email {
+    width: 65%;
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  .button {
+    width: 22%;
+    padding: 7px 0;
+    font-size: 14px;
+  }
+
+  .footer-end {
+    padding: 3px 0;
+  }
+  .footer-end > p {
+    text-align: center;
+  }
+  
+
+  .bg3 {
+    background-image: url(pexels-minan1398-920534.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    top: -30px;
+    margin: -40px 0;
+  }
+
+ 
+  .about-background {
+    margin: 0px 0px;
+    width: 100%;
+    height: 340vh;
+    background-image: url(pexels-jibarofoto-1624881.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .about-mr > p {
+    font-size: 14px;
+  }
+
+  
+  .service_boxx {
+    margin: 0 30px 0 30px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  .logo {
+    padding: 5px 0px;
+  }
+  .menu {
+    margin-left: 1rem;
+  }
+  .item1 {
+    font-size: 14px !important;
+  }
+  
+  .background {
+    background-image: url(pexels-ekam-juneja-61080223-14540527.jpg);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 80px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  .background_data {
+    margin: 0px 10px 50px 10px;
+  }
+
+  .main-h5 {
+    font-size: 24px;
+  }
+  .main-p {
+    font-size: 16px;
+  }
+
+  .services > h1 {
+    font-size: 25px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin-bottom: 20px;
+    margin-right: 6px;
+  }
+
+  .services-detail {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin: 5px;
+  }
+  .service-item {
+    margin: 20px 10px;
+    padding: 20px 20px;
+  }
+  .service-item > i {
+    width: 80px;
+    height: 80px;
+    padding-top: 22px;
+    font-size: 28px;
+  }
+  
+  .quotes {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    margin: 60px 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .quotes-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    padding: 10px 50px 10px 10px;
+  }
+  .form-color {
+    padding: 10px 33px;
+  }
+  .quotes-img > img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .bg3 {
+    background-image: url(pexels-minan1398-920534.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    top: -30px;
+    margin: -40px 0;
+  }
+  .blogs-data > span {
+    font-size: 14px;
+  }
+  .blogs-data > h1 {
+    font-size: 20px;
+  }
+  .main-blogs {
+    margin: 10px 10px 10px 10px;
+  }
+  .blog-posts {
+    width: 80%;
+    margin-right: 0px;
+  }
+  .blog-posts > img {
+    width: 100%;
+    height: 210px;
+  }
+  .blog-content > h2 {
+    font-size: 18px;
+  }
+
+  .blog-date {
+    padding: 6px;
+  }
+  .blog-date > span {
+    font-size: 12px;
+  }
+  .blog-date > h4 {
+    font-size: 16px;
+  }
+
+  .back_video {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 0;
+  }
+
+  .quick-link,
+  .popular-link,
+  .get-in-touch {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+  }
+  .quick-link > h1,
+  .popular-link > h1,
+  .get-in-touch > h1,
+  .follow-us > h1 {
+    font-size: 22px;
+  }
+  .quick-link > a,
+  .popular-link > a {
+    padding: 5px 5px 5px 0px;
+    font-size: 14px;
+  }
+  .footer-icons {
+    padding-left: 0rem;
+  }
+  .footericon {
+    font-size: 14px;
+  }
+
+  .follow-us {
+    width: 43%;
+  }
+
+  .socialmediaicon {
+    font-size: 19px;
+  }
+  .socialmediaicon.facebook {
+    font-size: 19px;
+  }
+  .email {
+    width: 65%;
+    padding: 10px 10px;
+    font-size: 14px;
+    
+  }
+  .button {
+    width: 22%;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+  .footer-mail{
+    height: 40px;
+    background-color: black;
+  }
+
+  .footer-end {
+    padding: 3px 0;
+    background-color: black;
+    
+  }
+  .footer-end > p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-style: bolder;
+   
+  }
+
+  .about-background {
+    margin: 0px 0px;
+    width: 100%;
+    height: 195vh;
+    background-image: url(pexels-jibarofoto-1624881.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .about-mr > p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .logo {
+    padding: 5px 0px;
+  }
+  .menu {
+    margin-left: 1rem;
+  }
+  .item1 {
+    font-size: 16px;
+  }
+
+  .background {
+    padding: 40px 0;
+  }
+  .background_img {
+    position: relative;
+    top: -12px;
+  }
+  .background_data {
+    margin: 10px;
+  }
+
+  .services > h1 {
+    font-size: 25px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    margin-bottom: 20px;
+    margin-right: 6px;
+  }
+  .flip-card-front > .lord-icon {
+    width: 150px;
+    height: 195px;
+  }
+  .flip-card-back > h1 {
+    font-size: 22px;
+  }
+  .flip-card-back > p {
+    font-size: 14px;
+  }
+  .flip-card-back > a {
+    font-size: 12px;
+  }
+
+  .services-detail {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    margin: 5px;
+  }
+  .service-item {
+    margin: 20px 10px;
+    padding: 20px 20px;
+  }
+  .service-item > i {
+    width: 80px;
+    height: 80px;
+    padding-top: 22px;
+    font-size: 28px;
+  }
+  .service-item > h3 {
+    font-size: 22px;
+    line-height: 60px;
+  }
+  .service-item > p {
+    font-size: 14px;
+  }
+
+  .quotes {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    margin: 0px 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .quotes-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    padding: 10px 50px 10px 10px;
+  }
+  .form-color {
+    padding: 10px 33px;
+  }
+  .quotes-img > img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .blogs-data > span {
+    font-size: 14px;
+  }
+  .blogs-data > h1 {
+    font-size: 20px;
+  }
+  .main-blogs {
+    margin: 10px 10px 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+  .blog-posts {
+    width: 80%;
+    margin-right: 40px;
+    position: relative;
+    transition: 1s;
+    margin-bottom: 50px;
+  }
+  .blog-posts > img {
+    width: 100%;
+    height: 210px;
+  }
+  .blog-content > h2 {
+    font-size: 14px;
+  }
+
+  .blog-date {
+    padding: 6px;
+  }
+  .blog-date > span {
+    font-size: 12px;
+  }
+  .blog-date > h4 {
+    font-size: 16px;
+  }
+
+  .back_video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .footer-main {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    padding: 0 0px 0 25px;
+  }
+
+  .quick-link,
+  .popular-link,
+  .get-in-touch {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+  }
+  .quick-link > h1,
+  .popular-link > h1,
+  .get-in-touch > h1,
+  .follow-us > h1 {
+    font-size: 22px;
+  }
+  .quick-link > a,
+  .popular-link > a {
+    padding: 5px 5px 5px 0px;
+    font-size: 14px;
+  }
+  .footer-icons {
+    padding-left: 0rem;
+  }
+  .footericon {
+    font-size: 14px;
+  }
+
+  .follow-us {
+    width: 43%;
+  }
+
+  .socialmediaicon {
+    font-size: 19px;
+  }
+  .socialmediaicon.facebook {
+    font-size: 19px;
+  }
+  .email {
+    width: 65%;
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+  .button {
+    width: 22%;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  .footer-end {
+    padding: 3px 0;
+  }
+  .footer-end > p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .about-background {
+    margin: 0px 0px;
+    width: 100%;
+    height: 140vh;
+    background-image: url(pexels-jibarofoto-1624881.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .about-mr > p {
+    font-size: 16px;
+  }
+
+  .service_boxx {
+    margin: 0px 0px 0px 0px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .menu {
+    margin-left: 16rem;
+  }
+  .item1 {
+    padding: 0px 5px;
+    font-size: 16px;
+  }
+
+  .background {
+    padding: 40px 0;
+  }
+  .background_img {
+    position: relative;
+    top: -12px;
+  }
+  .background_data {
+    margin: 50px 10px 50px 10px;
+  }
+  .main-h5 {
+    font-size: 26px;
+  }
+
+  .main-p {
+    font-size: 18px;
+  }
+
+  .services > h1 {
+    font-size: 25px;
+  }
+
+  .services-detail {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    margin: 5px;
+  }
+  .service-item {
+    margin: 20px 10px;
+    padding: 20px 20px;
+  }
+  .service-item > i {
+    width: 80px;
+    height: 80px;
+    padding-top: 22px;
+    font-size: 28px;
+  }
+  .service-item > h3 {
+    font-size: 22px;
+    line-height: 60px;
+  }
+  .service-item > p {
+    font-size: 14px;
+  }
+
+  .quotes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin: 0px 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .quotes-data > h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-left: 11px;
+  }
+  .quotes-data > h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 11px;
+  }
+  .quotes-data > p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .quotes-form {
+    display: flex;
+    flex-direction: row;
+  }
+  .form {
+    padding: 10px 50px 10px 10px;
+  }
+  .form-color {
+    padding: 10px 33px;
+  }
+  .quotes-img > img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .bg3 {
+    background-image: url(pexels-minan1398-920534.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    top: -30px;
+    margin: -5px 0;
+  }
+  .blogs-data > span {
+    font-size: 16px;
+  }
+  .blogs-data > h1 {
+    font-size: 22px;
+  }
+  .main-blogs {
+    margin: 10px 10px 10px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+  .blog-posts {
+    width: 80%;
+    margin-right: 50px;
+    position: relative;
+    transition: 1s;
+    margin-bottom: 50px;
+  }
+  .blog-posts > img {
+    width: 100%;
+    height: 210px;
+  }
+  .blog-content > h2 {
+    font-size: 14px;
+  }
+
+  .blog-date {
+    padding: 6px;
+  }
+  .blog-date > span {
+    font-size: 12px;
+  }
+  .blog-date > h4 {
+    font-size: 16px;
+  }
+
+  .back_video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .footer-main {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    padding: 0 0px 0 25px;
+  }
+
+  .quick-link,
+  .popular-link,
+  .get-in-touch {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+  }
+  .quick-link > h1,
+  .popular-link > h1,
+  .get-in-touch > h1,
+  .follow-us > h1 {
+    font-size: 22px;
+  }
+  .quick-link > a,
+  .popular-link > a {
+    padding: 5px 5px 5px 0px;
+    font-size: 14px;
+  }
+  .footer-icons {
+    padding-left: 0rem;
+  }
+  .footericon {
+    font-size: 14px;
+  }
+
+  .follow-us {
+    width: 43%;
+  }
+
+  .socialmediaicon {
+    font-size: 19px;
+  }
+  .socialmediaicon.facebook {
+    font-size: 19px;
+  }
+  .email {
+    width: 40%;
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+  .button {
+    width: 12%;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  .footer-end {
+    padding: 3px 0;
+  }
+  .footer-end > p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .about-background {
+    margin: 0px 0px;
+    width: 100%;
+    height: 140vh;
+    background-image: url(pexels-jibarofoto-1624881.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+}
